@@ -7,9 +7,6 @@
   --white-text-color: #ffffff;
 }
 
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--primary-bg-color);
@@ -27,9 +24,7 @@ body {
 .section-title {
   text-align: center;
   font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  line-height: 1.17;
   letter-spacing: 1.08px;
 }
 
@@ -41,9 +36,8 @@ button {
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  line-height: 1.38;
   letter-spacing: 0.78px;
   color: #2196f3;
 }
@@ -72,9 +66,8 @@ button {
 
 .nav-link {
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  line-height: 1.14;
   letter-spacing: 0.28px;
   color: var(--primary-text-color);
 }
@@ -91,9 +84,8 @@ button {
 
 .header-contacts-link {
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  line-height: 1.14;
   letter-spacing: 0.28px;
   color: var(--secondary-text-color);
 }
@@ -114,9 +106,8 @@ button {
 .hero-title {
   text-align: center;
   font-size: 44px;
-  font-style: normal;
   font-weight: 900;
-  line-height: 60px; /* 136.364% */
+  line-height: 1.36;
   letter-spacing: 2.64px;
   text-transform: uppercase;
   color: var(--white-text-color);
@@ -126,9 +117,14 @@ button {
   min-width: 200px;
   min-height: 50px;
   border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.96px;
   background-color: #2196f3;
   color: var(--white-text-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:hover,
@@ -152,18 +148,14 @@ button {
 
 .features-item-title {
   font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  line-height: 1.14;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
 
 .features-item-text {
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 171.429% */
+  line-height: 1.71;
   letter-spacing: 0.42px;
   color: var(--secondary-text-color);
 }
@@ -201,20 +193,17 @@ button {
 }
 
 .team-name {
-  text-align: center;
+  /* text-align: center; */
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  line-height: 1.19;
   letter-spacing: 0.48px;
 }
 
 .team-job {
-  text-align: center;
+  /* text-align: center; */
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  line-height: 1.19;
   letter-spacing: 0.48px;
   color: var(--secondary-text-color);
 }
@@ -240,8 +229,7 @@ button {
 .address-link {
   font-size: 14px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 16px; /* 114.286% */
+  line-height: 1.14;
   letter-spacing: 0.42px;
 }
 
@@ -275,11 +263,10 @@ button {
 .filter-button {
   min-height: 38px;
   border-radius: 4px;
-  text-align: center;
+  /* text-align: center; */
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 26px; /* 162.5% */
+  line-height: 1.63;
   letter-spacing: 0.48px;
   background-color: #f5f4fa;
   color: var(--primary-text-color);
@@ -311,18 +298,14 @@ button {
 
 .portfolio-card-title {
   font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 36px; /* 200% */
+  line-height: 2;
   letter-spacing: 1.08px;
   color: var(--primary-text-color);
 }
 
 .portfolio-card-text {
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px; /* 187.5% */
+  line-height: 1.88;
   letter-spacing: 0.48px;
   color: var(--secondary-text-color);
 }
