@@ -30,7 +30,6 @@ body {
 }
 
 button {
-  font-family: inherit;
   cursor: pointer;
 }
 
@@ -82,7 +81,18 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .nav {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {
+  margin-right: 93px;
 }
 
 .header-logo-right {
@@ -90,9 +100,14 @@ img {
 }
 
 .nav-list {
+  display: flex;
 }
 
 .nav-item {
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .nav-link,
@@ -104,6 +119,9 @@ img {
 }
 
 .nav-link {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-text-color);
 }
 
@@ -120,9 +138,16 @@ img {
 }
 
 .header-cotacts-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
 .header-contacts-item {
+}
+
+.header-contacts-item:not(:last-child) {
+  margin-right: 40px;
 }
 
 .header-contacts-link {
@@ -139,6 +164,9 @@ img {
 
 .hero-title {
   margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 696px;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -178,9 +206,15 @@ img {
 }
 
 .features-list {
+  display: flex;
 }
 
 .features-item {
+  flex-basis: calc((100% - 30px * 3) / 4);
+}
+
+.features-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .features-item-title {
@@ -208,9 +242,15 @@ img {
 }
 
 .work-list {
+  display: flex;
 }
 
 .work-item {
+  flex-basis: calc((100% - 30px * 2) / 3);
+}
+
+.work-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .work-item-img {
@@ -225,14 +265,19 @@ img {
 }
 
 .team-list {
+  display: flex;
 }
 
 .team-item {
-  width: 270px;
+  flex-basis: calc((100% - 30px * 3) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #fff;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.team-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .team-photo {
@@ -318,10 +363,16 @@ img {
 }
 
 .filter-list {
+  display: flex;
+  justify-content: center;
   margin-bottom: 50px;
 }
 
 .filter-item {
+}
+
+.filter-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .filter-button {
@@ -348,10 +399,20 @@ img {
 }
 
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .portfolio-item {
-  width: 370px;
+  flex-basis: calc((100% - 30px * 2) / 3);
+}
+
+.portfolio-item:not(:nth-child(3n + 3)) {
+  margin-right: 30px;
+}
+
+.portfolio-item:not(:nth-last-child(-n + 4)) {
+  margin-bottom: 30px;
 }
 
 .portfolio-card {
